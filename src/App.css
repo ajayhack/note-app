@@ -1,0 +1,163 @@
+.App-header {
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: purple;
+}
+
+.NoteListItem{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  margin-top: 20px;
+}
+
+.noteTable{
+  width: 100%;
+}
+
+.noteTable tr:hover {
+  background-color: #ddd;
+}
+
+.noteTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.noteTable td {
+  padding: 10px;
+}
+
+.editbtn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+}
+
+.deletebtn{
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.submitbtn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    width: 80px;
+    height: 55px;
+}
+
+.filterButtonStyle{
+    background-color: olivedrab;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    height: 55px;
+}
+
+.submitFilterBtn{
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 55px;
+}
+
+.cancelFilterBtn{
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 55px;
+}
+
+body {
+  margin: 0;
+}
+
+.link{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: green
+}
+
+.Material-TF-Style{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+  color: green;
+  margin-top: 30px;
+  
+}
+
+.SwipeableStyle{
+  position: absolute;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  color: green;
+  text-align: center;
+}
+
+.main-div{
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.FabStyle{
+ background-color: yellow;
+ color: yellow;
+}
+
+.IconStyle{
+color: white;
+}
+
+.BottomSheetStyle{
+  justify-content: center;
+  align-items: center;
+}
+
+.FormStyle{
+  padding: 10px;
+  color: white;
+  background-color: green;
+}
+
+.HorizontalLineStyle{
+    color: '#A9A9A9';
+    height: .5
+}
+
+.BottomSheetHeadingStyle{
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: blue;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
